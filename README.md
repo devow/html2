@@ -45,7 +45,7 @@ No __Menu__, ficará localizado o menu de navegação (ah vá!), no __Header__ d
 3. __Menu__ e __Footer__ padrões em todas as páginas.
 
 ### Horário de Atendimento
-1. Deve ter uma imagem diferente no__ Header__.
+1. Deve ter uma imagem diferente no __ Header__.
 2. Em __Content__ um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
 3. __Menu__ e __Footer__ padrões em todas as páginas.
 
