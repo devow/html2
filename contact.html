@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="about.html">Sobre a clínica</a></li>
+                <li><a href="working-hours.html">Horário de Atendimento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Header -->
+                <!-- Aqui vai o seu header -->
+                <img class="icon" src="icon4.webp">Contato
+            </div>
+    
+            <div class="content" id="contact-page">
+                <!-- Content -->
+                <!-- Aqui vai o seu conteúdo -->
+                <h2>Contato</h2>
+                <p>
+                    Telefone: +123 456 789<br>
+                    Celular: +1234 456 789<br>
+                    WhatsApp: +1234 456 789<br>
+                    E-mail: info@clinicaelfica.com
+                </p>
+                
+                <h2>Endereço</h2>
+                <p>
+                    Caminho das Árvores Encantadas, nº 345<br>
+                    Cidade das Folhas Sussurrantes, Alfaëria
+                </p>
+
+                <br>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4255.7489325510915!2d-46.64085526743875!3d-23.46255775679594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef6e2cf916319%3A0x8e850aaf694f7b42!2sParque%20Estadual%20Alberto%20L%C3%B6fgren%20-%20Horto%20Florestal!5e0!3m2!1spt-BR!2sbr!4v1700163480667!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <br> <hr> <br>
+
+                    <form id="my_form" action="POST" class="form1">
+                        <label>Nome</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                        <label>Email</label><br>
+                            <input type="email" id="femail" name="femail"><br>
+                        <label>Assunto</label><br>
+                            <input type="text" id="fsubject" name="fsubject"><br>
+                        <label>Mensagem</label><br>
+                            <textarea id="fmessage" name="fmessage" cols="65" rows="12"></textarea><br>
+                        <div class="buttonBox">
+                            <button type="submit" form="my_form"><label>Enviar</button></label>
+                            <button type="reset" form="my_form"><label>Limpar</label></button>
+                        </div>
+                    </form>
+
+            </div>
+    
+            <div class="footer">
+                <!-- Footer -->
+                <!-- Aqui vai o seu rodapé -->
+                <table>
+                    <tr>
+                        <td><b>Contato</b><br>
+                            Telefone: +123 456 789<br>
+                            E-mail: info@clinicaelfica.com<br></td>
+                        <td><b>Endereço</b><br>Caminho das Árvores Encantadas, nº 345<br>
+                            Cidade das Folhas Sussurrantes, Alfaëria</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

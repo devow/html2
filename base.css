@@ -5,12 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-size: 150%;
+    line-height: 1.2;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     background-color: aquamarine;
 }
 .main {
@@ -20,19 +22,104 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #f1f1f1;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #af9164;
     min-height: 150px;
+    color: #151e3f;
+    font-size: 330%;
+    display: flex;
+    align-items: center;
 }
 .content {
-    background-color: white;
+    background-color: #f7f3e3;
     min-height: 300px;
     padding: 20px;
+    text-align: justify;
+    text-indent: 5em;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #151e3f;
     min-height: 150px;
+    color: #FFFFFF;
+}
+.icon {
+    max-height: 100px;
+    margin: 0 20px;
+}
+.menu a, ul, ol, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #137547;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid;
+    border-spacing: 0;
+    border-color: rgb(20, 30, 64);
+}
+th {
+    background-color: #151e3f;
+    color: #ffffff;
+    padding: 0 5px;
+}
+td {
+    padding: 0 5px;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.footer td {
+    padding: 20px;
+    text-align: left;
+    background-color: #151e3f;
+    color: #ffffff;
+}
+
+#contact-page p {
+    text-indent: 0%;
+    padding-left: 5em;
+    margin: 0;
+}
+#contact-page h2 {
+    margin-bottom: 10px;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+}
+
+#my_form {
+    text-indent: 0%;
+    margin-left: 5em;
+    margin-right: auto;
+    text-align: left;
+    border: 0px none;
+    border-color: none;
+}
+#fname, #fsubject, #femail, #fmessage {
+    font-size: 100%;
+    margin: 5px;
+}
+#fmessage {
+    resize: none;
+}
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    margin-right: 4em;
+}
+#my_form button[type="Submit"], #my_form button[type="Reset"] {
+    font-size: 100%;
+    margin: 0 20px
 }
